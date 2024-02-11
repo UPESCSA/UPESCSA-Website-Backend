@@ -163,6 +163,24 @@ const HEADS_MESSAGES = {
   ERROR_DELETING_HEADS: "Error Deleting Heads ❌ ",
 };
 
+const FORM_MESSAGES = {
+  FORM_ALREADY_EXISTS: "Form Already Exists ❌ ",
+  FORM_CREATED: "Form Created ✅ ",
+  FORM_NOT_CREATED: "Form Not Created ❌ ",
+  FORM_FOUND: "Form Found ✅ ",
+  FORM_NOT_FOUND: "Form Not Found ❌ ",
+  FORM_READ: "Form Read ✅ ",
+  FORM_NOT_READ: "Form Not Read ❌ ",
+  FORM_UPDATED: "Form Updated ✅ ",
+  FORM_NOT_UPDATED: "Form Not Updated ❌ ",
+  FORM_DELETED: "Form Deleted ✅ ",
+  FORM_NOT_DELETED: "Form Not Deleted ❌ ",
+  ERROR_CREATING_FORM: "Error Creating Form ❌ ",
+  ERROR_READING_FORM: "Error Reading Form ❌ ",
+  ERROR_UPDATING_FORM: "Error Updating Form ❌ ",
+  ERROR_DELETING_FORM: "Error Deleting Form ❌ ",
+};
+
 export {
   DB_MESSAGES,
   SERVER_MESSAGES,
@@ -174,4 +192,5 @@ export {
   COMMITTEE_MESSAGES,
   COREMEMBER_MESSAGES,
   HEADS_MESSAGES,
+  FORM_MESSAGES,
 };
