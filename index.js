@@ -45,6 +45,7 @@ app.use("/api/blog", BLOGROUTER);
 app.use("/api/event", EVENTROUTER);
 app.use("/api/csr", CSRROUTER);
 app.use("/api/committee", COMMITTEEROUTER);
+app.use("/api/previousevent",PREVIOUSEVENTROUTER);
 app.use("/api/coremember", COREMEMBERROUTER);
 app.use("/api/head", HEADSROUTER);
 app.use("/api/form",FORMROUTER);
