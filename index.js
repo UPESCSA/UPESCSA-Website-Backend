@@ -12,6 +12,7 @@ import { CSRROUTER } from "./routers/csrRouter.js";
 import { COMMITTEEROUTER } from "./routers/committeeRouter.js";
 import { COREMEMBERROUTER } from "./routers/coreMemberRouter.js";
 import { HEADSROUTER } from "./routers/headsRouter.js";
+import { ALUMNIROUTER } from "./routers/alumniRouter.js";
 import { PREVIOUSEVENTROUTER } from "./routers/previousEventRouter.js";
 import { HACKATHONPSROUTER } from "./routers/hackathonPSRouter.js";
 
@@ -51,6 +52,7 @@ app.use("/api/csr", CSRROUTER);
 app.use("/api/committee", COMMITTEEROUTER);
 app.use("/api/coremember", COREMEMBERROUTER);
 app.use("/api/head", HEADSROUTER);
+app.use("/api/alumni", ALUMNIROUTER);
 app.use("/api/previousevent", PREVIOUSEVENTROUTER);
 app.use("/api/hackathon/ps", HACKATHONPSROUTER);
 
