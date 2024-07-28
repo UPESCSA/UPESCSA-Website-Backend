@@ -66,6 +66,8 @@ EventRouter.route("/register/hackersummit")
   .get(READHACKERSUMMIT)
   .post(CREATEHACKERSUMMIT);
 
+
+
 // EventRouter.route("/hackathon/register")
 //   .get(READHACKATHON)
 //   .post(
