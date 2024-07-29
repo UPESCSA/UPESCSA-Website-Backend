@@ -71,7 +71,7 @@ const storage = multer.diskStorage({
         cb(null, `${req.body.csaid}${path.extname(file.originalname)}`);
         break;
       case "alumniImg":
-        cb(null, `${req.body.name}_${req.body.position}_${req.body.company}${path.extname(file.originalname)}`);
+        cb(null, `${req.body.name.split(" ").join("")}_${req.body.position.split(" ").join("")}_${req.body.company}${path.extname(file.originalname)}`);
         break;
       case "frenzyPitchTransactionSS":
         cb(null, `${req.body.teamLeadEmail}${path.extname(file.originalname)}`);
