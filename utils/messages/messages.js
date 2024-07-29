@@ -198,6 +198,11 @@ const REGISTRATION_MESSAGES = {
   ERROR_DELETING_REGISTRATION: "Error Deleting Registration ❌ ",
 };
 
+const MAIL_MESSAGES = {
+  MAIL_SEND: "Mail Send ✅ ",
+  MAIL_NOT_SEND: "Mail Not Send ❌ ",
+};
+
 export {
   DB_MESSAGES,
   SERVER_MESSAGES,
@@ -211,4 +216,5 @@ export {
   HEADS_MESSAGES,
   ALUMNI_MESSAGES,
   REGISTRATION_MESSAGES,
+  MAIL_MESSAGES,
 };
