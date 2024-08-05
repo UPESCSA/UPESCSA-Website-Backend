@@ -683,6 +683,104 @@ const templates = {
 </html>
     `,
   },
+  "MEMOIR3.0": {
+    subject: "Successful Registration Confirmation - MEMOIR 3.0!",
+    html: `
+<html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1,
+    h2,
+    h3 {
+      color: #1895ee;
+    }
+    div {
+      line-height: 1.3;
+      color: #ffffff;
+    }
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    svg {
+      margin: 0 5px;
+      height: 30px;
+    }
+    hr {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    ul li {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  
+    <h1>MEMOIR 3.0</h1>
+    <h2>Registration Successful!!</h2>
+    <p>Dear username,</p>
+    <p>
+      Congratulations! Your spot for<br/> <strong>“Memoir 3.0”</strong> is officially secured. Prepare yourself for an enriching experience that’s tailored to elevate your career journey and equip you with the tools you need to succeed in the professional world.
+    </p>
+    <p><strong>Event Details:</strong></p>
+    <p><strong>Date: August 11th, 2024</strong></p>
+    <p>
+      <strong>Time:</strong>
+        <p><strong>Session 1:</strong> Resume Refinery - 10:00 AM to 12:00 PM</p>
+        <p><strong>Session 2:</strong> Interview Ignition - 2:00 PM to 4:00 PM</p>
+    </p>
+    <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/CrMhm8hRREG0fKrU08KMnq">WhatsApp</a></p>
+    <p>
+      We are delighted to have you join us for Memoir 3.0. This event promises to be a valuable opportunity to refine your resume and master your interview skills with expert guidance.
+    </p>
+    <p>
+      Here’s to your career success—see you soon!
+    </p>
+    <p>
+      If you have any questions or need assistance, don’t hesitate to reach out to us at:
+      <br/>
+      <ul>
+        <li>
+          <strong>Aditi Bansal: 70235 03337</strong>
+        </li>
+        <li>
+          <strong>Garv Malhotra: 98768 66366</strong>
+        </li>
+      </ul>
+    </p>
+    <p><strong>Thanks, and Regards<br>Team UPES CSA</strong></p>
+    <hr/>
+  </div>
+</body>
+</html>
+
+    `,
+  },
 };
 
 export { templates as MAILTEMPLATES };
