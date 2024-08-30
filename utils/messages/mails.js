@@ -781,6 +781,96 @@ const templates = {
 
     `,
   },
+  RegistrationDrive: {
+    subject: "Welcome to UPES-CSA!",
+    html: `<html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5{
+      color: #1895ee;
+    }
+    div {
+      line-height: 1.3;
+      color: #ffffff;
+    }
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    svg {
+      margin: 0 5px;
+      height: 30px;
+    }
+    hr {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      font-weight: bold;
+      color: #1895ee;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  
+    <h2>Registration Confirmed!</h2>
+    <p>Greetings username,</p>
+    <p>
+      We are pleased to confirm the successful processing of your registration for the <strong>UPES Cloud Security Alliance (UPES-CSA)</strong>.
+    </p>
+    <p>
+      Your journey with UPES-CSA has officially begun, and we are excited to welcome you to our community. In the upcoming phase, you will receive further details about the interview process, where we will explore your interests and discuss how you can contribute to the UPES-CSA community.
+    </p>
+    <p>
+      To stay connected and receive important updates, please join our WhatsApp group using the link below:
+    </p>
+    <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/I4OrFl4cDbaDoM3JWUofi5">WhatsApp</a></p>
+    <p>
+      We appreciate your decision to join UPES-CSA as your platform for growth and innovation.
+    </p>
+    <p>
+      For any inquiries, please feel free to contact us:
+    </p>
+
+<h4>Sanya Gilhotra (President, UPES-CSA):<br/> +91 89586 11888</h4>
+  <h4>Aman Agarwal (Vice President, UPES-CSA): <br/>+91 88280 44674</h4>
+    <p><strong>Thanks, and Regards<br>Team UPES-CSA</strong></p>
+    <hr/>
+  </div>
+</body>
+</html>
+`,
+  },
 };
 
 export { templates as MAILTEMPLATES };
