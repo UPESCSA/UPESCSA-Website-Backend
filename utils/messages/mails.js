@@ -939,7 +939,7 @@ const templates = {
         <br />
         <strong>Timings:</strong>
         <ul>
-          <li><strong>Session 1 (12-2pm):</strong> Fly High with AI</li>
+          <li><strong>Session 1 (12-2pm):</strong> Intro to Azure</li>
           <li><strong>Session 2 (3:30-5:30pm):</strong> Demystifying the Path to Becoming an Azure Cloud Engineer</li>
         </ul>
         <strong>Location:</strong> UPES Bidholi, 11th Block
