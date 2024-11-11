@@ -871,6 +871,94 @@ const templates = {
 </html>
 `,
   },
+
+
+  AzureCloudScape: {
+    subject: "Successful Registration Confirmation - Azure Cloudscape 2024!",
+    html: `
+    <html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1e1e1e;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+      }
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #000;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2,
+      h3 {
+        color: #1895ee;
+      }
+      div {
+        line-height: 1.5;
+        color: #ffffff;
+      }
+      .socials {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      svg {
+        margin: 0 5px;
+        height: 30px;
+      }
+      hr {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Azure Cloudscape 2024</h1>
+      <h2>Registration Successful!</h2>
+      <div>
+        Dear <strong>username</strong>,
+        <br /><br />
+        Congratulations! Your spot for <strong>Azure Cloudscape: Navigating Tomorrow’s Tech</strong> is officially secured. Get ready for an enriching experience that promises to enhance your understanding of cloud technologies and empower you with the skills needed to excel in the rapidly evolving tech landscape.
+        <br /><br />
+        Throughout the event, you will engage in <strong>hands-on workshops</strong>, tackle exciting <strong>tech challenges</strong>, and connect with like-minded innovators. You’ll also have the chance to win <strong>exclusive goodies</strong> and <strong>certificates</strong>, celebrating your achievements and commitment to growth in the tech industry.
+        <br /><br />
+        <strong>Event Details:</strong>
+        <br />
+        <strong>Date:</strong> 16th November, 2024
+        <br />
+        <strong>Timings:</strong>
+        <ul>
+          <li><strong>Session 1 (12-2pm):</strong> Fly High with AI</li>
+          <li><strong>Session 2 (3:30-5:30pm):</strong> Demystifying the Path to Becoming an Azure Cloud Engineer</li>
+        </ul>
+        <strong>Location:</strong> UPES Bidholi, 11th Block
+        <br /><br />
+        Join the <strong><a href="https://chat.whatsapp.com/F1nsNdAOIV815TfBtCj4wl">WhatsApp Group</a></strong>.
+        <br /><br />
+        Your journey in the cloud technology frontier starts now, and we’re eager to witness your growth and success. <strong>See you at Azure Cloudscape: Navigating Tomorrow’s Tech!</strong>
+        <br /><br />
+        Thanks, and Regards,
+        <br />
+        <strong>Team UPES CSA</strong>
+        <hr />
+      </div>
+    </div>
+  </body>
+</html>
+
+    `,
+  },
 };
 
 export { templates as MAILTEMPLATES };
