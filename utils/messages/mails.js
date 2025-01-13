@@ -603,7 +603,7 @@ const templates = {
     `,
   },
   HACKATHON: {
-    subject: "Successful Registration Confirmation - HACKATHON 3.0!",
+    subject: "Successful Registration Confirmation - HACKATHON 4.0!",
     html: `
     <html>
   <head>
@@ -653,29 +653,36 @@ const templates = {
   </head>
   <body>
     <div class="container">
-      <h1>HACKATHON 3.0</h1>
+      <h1>HACKATHON 4.0</h1>
       <h2>Registration Successful!!</h2>
       <div>
-        Hi Team username,
+        Greetings! Team username,
+        <br /><br />
+        We are thrilled to confirm that your registration for Hackathon 4.0, organized by the UPES CSA, has been successfully completed! Get ready to immerse yourself in a world of innovation and creativity, where ideas transform into impactful solutions.
+        <br /><br />
+        <strong>Event Details:</strong>
         <br />
+        <strong>Date:</strong> 24th to 26th January, 2024
         <br />
-        Congratulations!  You've taken an exciting step towards becoming a catalyst for innovation by registering for <strong>Hackathon 3.0!</strong>
+        <strong>Mode:</strong> Online
+        <br /><br />
+        What to Expect?
         <br />
-        <br />
-        The highly anticipated Hackathon 3.0 is just around the corner, scheduled to take place on  <strong>19th - 21th April 2024</strong>. The event will be conducted entirely online, ensuring accessibility to all participants regardless of location.
-        <br />
-        <br />
-        Further information regarding the event, including the agenda and any additional requirements, will be shared with you via email closer to the event date.
-        <br />
-        <br />
-        We encourage you to join our dedicated <strong><a href="https://chat.whatsapp.com/LRouuNA8hFx73tFVQguPf9">WhatsApp</a></strong> group for immediate updates and important announcements.
-        Should you have any questions or require further assistance, please do not hesitate to contact us:<br /><br />
-        Ananya Mathur<br />
-        +91 99534 38518<br /><br />
-        Sanya Gilhotra<br />
-        +91 89586 11888<br /><br />
+        Prepare to collaborate, innovate, and compete with talented peers as you tackle challenging problem statements selected by industry leaders to reflect real-world needs. Alongside exciting prizes, the event offers a unique opportunity to network with like-minded individuals and engage with ideas that drive meaningful change.
+        <br /><br />
+        Stay tuned for more updates, including theme announcements and detailed schedules!
+        <br /><br />
+        We encourage you to join our dedicated <strong><a href="https://chat.whatsapp.com/IDM52E9kBKgCJ0UCnkI3OR">WhatsApp</a></strong> group for immediate updates and important announcements.
+        <br /><br />
+        For any questions or assistance, feel free to reach out to us at:
+        <br /><br />
+        Aditi Bansal<br />
+        +91 70235 03337<br /><br />
+        Garv Malhotra<br />
+        +91 98768 66366<br /><br />
         Thanks, and Regards <br />
         Team UPES CSA
+        <br /><br />
         <hr />
       </div>
     </div>
