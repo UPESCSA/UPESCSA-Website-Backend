@@ -676,8 +676,8 @@ const templates = {
         <br /><br />
         For any questions or assistance, feel free to reach out to us at:
         <br /><br />
-        Aditi Bansal<br />
-        +91 70235 03337<br /><br />
+        Vinayak Sharma<br />
+        +91 88105 49939<br /><br />
         Garv Malhotra<br />
         +91 98768 66366<br /><br />
         Thanks, and Regards <br />
