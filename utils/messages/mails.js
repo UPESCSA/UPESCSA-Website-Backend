@@ -662,7 +662,7 @@ const templates = {
         <br /><br />
         <strong>Event Details:</strong>
         <br />
-        <strong>Date:</strong> 24th to 26th January, 2024
+        <strong>Date:</strong> 7th to 9th February, 2024
         <br />
         <strong>Mode:</strong> Online
         <br /><br />
