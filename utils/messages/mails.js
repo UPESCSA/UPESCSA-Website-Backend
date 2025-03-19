@@ -966,6 +966,98 @@ const templates = {
 
     `,
   },
+  ENTROPEDIA: {
+    subject: "Successful Registration Confirmation - Entropedia 2.0!",
+    html: `
+    <html>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+          }
+          .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #000;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+          h1, h2, h3 {
+            color: #EC2227;
+          }
+          div {
+            line-height: 1.5;
+            color: #ffffff;
+          }
+          .socials {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+          }
+          svg {
+            margin: 0 5px;
+            height: 30px;
+          }
+          hr {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+          }
+        </style>
+      </head>
+      <body>
+        <body>
+
+<div class="container">
+    <h1>Entropedia 2.0</h1>
+    <h2>Registration Successful!</h2>
+    
+    <p>Dear <strong>username</strong>,</p>
+
+    <p>Congratulations! 🎉 Your registration for <strong>Entropedia 2.0</strong> is confirmed. We’re thrilled to have you on board for this exciting entrepreneurial journey. Get ready to refine your ideas, receive expert mentorship, and showcase your potential in front of industry leaders!</p>
+
+    <p><strong>Event Details:</strong></p>
+    <p>📅 <strong>Date:</strong> 7th April 2025</p>
+    <p>📍 <strong>Venue:</strong> MAC, UPES Bidholi Campus</p>
+
+    <p>Stay tuned for further updates regarding the event schedule, mentorship sessions, and competition structure. We will be sharing important details to help you prepare for each round of the competition.</p>
+
+    <p>In the meantime, we encourage you to start refining your ideas. Whether you have a fully developed startup concept or an early-stage idea, this is your chance to shape it into a viable business model with the support of industry mentors.</p>
+
+    <p>To connect with fellow participants, startup mentors, and experts, join our <strong><a href="https://chat.whatsapp.com/KmLThlhH9vE0xnJav8Oq0a" target="_blank">WhatsApp Group</a></strong>. This will be your go-to space for discussions, event updates, and networking opportunities.</p>
+
+    <p><strong>For any questions, feel free to reach out to:</strong></p>
+
+    <div class="contact">
+        <h4>Aditi Bansal (UPES-CSA): +91 70235 03337</h4>
+        <h4>Garv Malhotra (UPES-CSA): +91 98768 66366</h4>
+        <h4>Shreyansh (UPES E-CELL): +91 95322 72533</h4>
+    </div>
+
+    <p><strong>Thanks & Regards,</strong><br>Team UPES-CSA</p>
+
+    <hr>
+
+    <p>We can’t wait to see your ideas take flight at <strong>Entropedia 2.0! 🚀</strong></p>
+
+    <p>Thanks & Regards,<br><strong>Team UPES CSA | Team UPES E-Cell</strong></p>
+
+    <hr>
+</div>
+
+</body>
+    </html>
+    `,
+  }
+
 };
 
 export { templates as MAILTEMPLATES };

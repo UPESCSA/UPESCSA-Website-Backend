@@ -33,6 +33,12 @@ import {
   READHACKATHON,
 } from "../controllers/eventRegistrationControllers/hackathonController.js";
 
+import {
+  CREATEENTROPEDIA,
+  READENTROPEDIA,
+} from "../controllers/eventRegistrationControllers/entropediaController.js";
+
+
 const EventRouter = express.Router();
 
 EventRouter.route("/")
@@ -73,6 +79,13 @@ EventRouter.route("/hackathon/register")
   .post(
     UPLOAD.fields([{ name: "hackathonTransactionSS", maxCount: 1 }]),
     CREATEHACKATHON
+  );
+
+EventRouter.route("/entropedia/register")
+  .get(READENTROPEDIA)
+  .post(
+    UPLOAD.fields([{ name: "hackathonTransactionSS", maxCount: 1 }]),
+    CREATEENTROPEDIA
   );
 
 export { EventRouter as EVENTROUTER };
