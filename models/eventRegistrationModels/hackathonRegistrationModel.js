@@ -56,27 +56,27 @@ const hackathonSchema = new mongoose.Schema({
   },
   memberTwoName: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoEmail: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoPhone: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoCourse: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoYearOfStudy: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoUPESStudent: {
     type: String,
-    required: true,
+    required: false,
     default: "Yes",
   },
   memberTwoCollegeName: {
@@ -86,11 +86,11 @@ const hackathonSchema = new mongoose.Schema({
   },
   memberTwoSapID: {
     type: String,
-    required: true,
+    required: false,
   },
   memberTwoCSAMember: {
     type: String,
-    required: true,
+    required: false,
     default: "No",
   },
   memberTwoCSAID: {
