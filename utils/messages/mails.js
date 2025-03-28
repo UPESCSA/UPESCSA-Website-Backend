@@ -1025,7 +1025,7 @@ const templates = {
     <p>Congratulations! 🎉 Your registration for <strong>Entropedia 2.0</strong> is confirmed. We’re thrilled to have you on board for this exciting entrepreneurial journey. Get ready to refine your ideas, receive expert mentorship, and showcase your potential in front of industry leaders!</p>
 
     <p><strong>Event Details:</strong></p>
-    <p>📅 <strong>Date:</strong> 7th April 2025</p>
+    <p>📅 <strong>Date:</strong> 14th April 2025</p>
     <p>📍 <strong>Venue:</strong> MAC, UPES Bidholi Campus</p>
 
     <p>Stay tuned for further updates regarding the event schedule, mentorship sessions, and competition structure. We will be sharing important details to help you prepare for each round of the competition.</p>
