@@ -789,7 +789,7 @@ const templates = {
     `,
   },
 
-  "RegistrationDrive": {
+  "RegistrationDrive2025": {
     subject: "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
     html: `
   <html>
