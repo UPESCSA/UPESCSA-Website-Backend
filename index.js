@@ -16,7 +16,6 @@ import { ALUMNIROUTER } from "./routers/alumniRouter.js";
 import { PREVIOUSEVENTROUTER } from "./routers/previousEventRouter.js";
 import { HACKATHONPSROUTER } from "./routers/hackathonPSRouter.js";
 import { MAILROUTER } from "./routers/mailRouter.js";
-import { FORMPROXYROUTER } from "./routers/formProxyRouter.js";
 
 // CONFIG
 dotenv.config();
@@ -58,7 +57,6 @@ app.use("/api/alumni", ALUMNIROUTER);
 app.use("/api/previousevent", PREVIOUSEVENTROUTER);
 app.use("/api/hackathon/ps", HACKATHONPSROUTER);
 app.use("/api/sendmail", MAILROUTER);
-app.use("/api/form", FORMPROXYROUTER);
 
 
 // DATABASE DISCONNECTION
