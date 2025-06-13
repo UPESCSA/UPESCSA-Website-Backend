@@ -21,19 +21,6 @@ router.post("/submit", upload.none(), async (req, res) => {
             return res.status(400).json({ error: "No data received" });
         }
 
-        // Create FormData from request body
-        const formData = new FormData();
-
-        // Add all fields from request body to FormData
-        for (const [key, value] of Object.entries(req.body)) {
-            if (value !== null && value !== undefined) {
-                console.log(`Adding to FormData: ${key} = ${value}`);
-                formData.append(key, String(value));
-            }
-        }
-
-        console.log("FormData entries:", Object.fromEntries(formData.entries()));
-
         // Forward the request to Google Apps Script
         const gasUrl =
             process.env.GOOGLE_APPS_SCRIPT_URL ||
@@ -43,7 +30,7 @@ router.post("/submit", upload.none(), async (req, res) => {
 
         const response = await fetch(gasUrl, {
             method: "POST",
-            body: formData,
+            body: req.body,
         });
 
         // console.log("GAS Response Status:", response.status);
