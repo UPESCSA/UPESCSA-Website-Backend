@@ -1048,7 +1048,100 @@ const templates = {
 </body>
     </html>
     `,
+  },
+  WEBGENESIS: {
+    subject: "Successful Registration Confirmation - WebGenesis: Code to Cloud!",
+    html: `
+  <html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    h1, h2 {
+      color: #00bfff;
+    }
+    p, li {
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+    hr {
+      margin-top: 2rem;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WebGenesis: Code to Cloud</h1>
+    <h2>Registration Confirmed!</h2>
+    <p>Dear <strong>username</strong>,</p>
+    <p>
+      Thank you for registering for <strong>WebGenesis: Code to Cloud</strong>, a 4-weekend virtual bootcamp organized by the <strong>UPES Cloud Security Alliance Student Chapter (UPES-CSA)</strong>, UPES Dehradun.
+    </p>
+    <p>
+      We are pleased to confirm your participation. Kindly join the official WhatsApp group for further communication:
+    </p>
+    <p><a href="https://chat.whatsapp.com/CvBKpYcBNQDKc5SjuSeHO2"><strong>WhatsApp Group Link</strong> </a></p>
+
+    <p><strong>Bootcamp Schedule:</strong></p>
+    <ul>
+      <li>Week 1: Web Development Foundations – 21st & 22nd June 2025</li>
+      <li>Week 2: Version Control & Collaboration – 28th June 2025</li>
+      <li>Week 3: DevOps & CI/CD + Docker – 5th & 6th July 2025</li>
+      <li>Week 4: Cloud Deployment – 12th & 13th July 2025</li>
+    </ul>
+
+    <p><strong>Mode:</strong> All sessions will be conducted online. You will receive session links and relevant resources via email and the WhatsApp group before each weekend.</p>
+
+    <p><strong>What Will You Gain?</strong></p>
+    <ul>
+      <li>Practical experience through hands-on projects</li>
+      <li>Mentorship from experienced professionals</li>
+      <li>GitHub-based collaboration practice</li>
+      <li>Certificate of Participation upon completion</li>
+    </ul>
+
+    <p>If you have any questions or need assistance with the setup, feel free to contact us:</p>
+    <ul>
+      <li><strong>Nityavardhan Singh (Events Head):</strong> 81689 47503</li>
+      <li><strong>Chhavi Gera (Events Head):</strong> 92054 47418</li>
+    </ul>
+
+    <p>We look forward to your active participation in <strong>WebGenesis: Code to Cloud</strong>!</p>
+
+    <p><strong>Thanks & Regards,<br/>Team UPES-CSA</strong></p>
+    <hr/>
+  </div>
+</body>
+</html>
+
+  `,
   }
+
 
 };
 
