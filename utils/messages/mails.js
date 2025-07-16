@@ -1140,6 +1140,86 @@ const templates = {
 </html>
 
   `,
+  },
+  ALUMNVERSE: {
+    subject: "Registration Confirmation Mail - AlumnVerse: Alumni Connect",
+    html: `
+  <html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    h1, h2 {
+      color: #00bfff;
+    }
+    p, li {
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+    hr {
+      margin-top: 2rem;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AlumnVerse: Alumni Connect</h1>
+    <h2>Registration Confirmed!</h2>
+    <p>Greetings from <strong>UPES Cloud Security Alliance Student Chapter</strong>!</p>
+    <p>
+      We are pleased to inform you that your registration for <strong>AlumnVerse</strong>, our upcoming alumni interaction event, has been successfully confirmed.
+    </p>
+    <p><strong>📌 Event Details:</strong></p>
+    <ul>
+      <li><strong>Date:</strong> 19th July, 2025</li>
+      <li><strong>Time:</strong> [Time]</li>
+      <li><strong>Mode:</strong> Online through Microsoft Teams</li>
+    </ul>
+    <p>
+      This event brings together three distinguished alumni of CSA who will share their experiences, insights, and answer your questions on career paths, academics, and life beyond the university.
+    </p>
+    <p>
+      Kindly ensure your attendance and be prepared with any questions you'd like to ask during the interactive session.
+    </p>
+    <p><strong>For any queries or updates, feel free to contact us at:</strong></p>
+    <ul>
+      <li><strong>Nityavardhan Singh (Events Head):</strong> 81689 47503</li>
+      <li><strong>Chhavi Gera (Events Head):</strong> 92054 47418</li>
+    </ul>
+    <p>
+      We look forward to your active participation in <strong>AlumnVerse</strong>!
+    </p>
+    <p><strong>With regards,<br/>Team UPES CSA</strong></p>
+    <hr/>
+  </div>
+</body>
+</html>
+    `,
   }
 
 
