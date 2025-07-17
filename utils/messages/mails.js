@@ -1190,6 +1190,7 @@ const templates = {
   <div class="container">
     <h1>AlumnVerse: Alumni Connect</h1>
     <h2>Registration Confirmed!</h2>
+    <p>Dear <strong>username</strong>,</p>
     <p>Greetings from <strong>UPES Cloud Security Alliance Student Chapter</strong>!</p>
     <p>
       We are pleased to inform you that your registration for <strong>AlumnVerse</strong>, our upcoming alumni interaction event, has been successfully confirmed.
