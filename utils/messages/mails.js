@@ -1220,7 +1220,86 @@ const templates = {
 </body>
 </html>
     `,
-  }
+  },
+  COUPONCODE: {
+    subject: "Your Exclusive Coupon Code - UPES CSA",
+    html: `
+  <html>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    h1, h2 {
+      color: #00bfff;
+    }
+    p {
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #00bfff;
+      color: #000;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .coupon {
+      margin: 20px auto;
+      padding: 15px;
+      background: #111;
+      border: 2px dashed #00bfff;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #00bfff;
+      letter-spacing: 2px;
+      width: fit-content;
+    }
+    hr {
+      margin-top: 2rem;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exclusive Coupon Code</h1>
+    <p>Use the code below while registering:</p>
+    <div class="coupon">
+      <i class="bi bi-ticket-perforated"></i> <strong>UPESCSAOFF</strong>
+    </div>
+    <a href="https://konfhub.com/aws-community-day-dehradun-2025" target="_blank">
+      Register Now
+    </a>
+    <hr/>
+    <p><strong>Team UPES CSA</strong></p>
+  </div>
+</body>
+</html>
+  `,
+  },
+
 
 
 };

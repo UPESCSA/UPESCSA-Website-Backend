@@ -31,8 +31,7 @@ const transporter = nodemailer.createTransport({
 function sendMail(username, email, template) {
 
   try {
-    console.log("Available templates:", Object.keys(MAILTEMPLATES));
-    console.log("Requested template:", template);
+
     const mailTemplate = MAILTEMPLATES[template];
     const mailSubject = mailTemplate.subject;
     let mailHtml = mailTemplate.html;
