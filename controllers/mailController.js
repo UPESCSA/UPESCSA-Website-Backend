@@ -46,7 +46,10 @@ const sendEmail = async (req, res) => {
     const { name, email, template } = req.body;
 
     if (name && email && template) {
+
+
       console.log("Sending email to:", email, "with template:", template);
+
 
       await SENDMAIL(name, email, template);
 
