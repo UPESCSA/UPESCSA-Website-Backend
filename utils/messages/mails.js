@@ -68,26 +68,7 @@ const templates = {
   REGISTRATIONS: {
     subject:
       "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
-    html: `
-    Greetings,<br><br>
-    We are delighted to inform you that your registration for UPES Cloud Security Alliance (UPES-CSA) has been successfully processed!
-    <br><br>
-    Your journey with UPES-CSA begins now, and we are thrilled to have you as a part of our community. In the next phase, you will soon be informed about the interview process, where we will further discuss your interests and how you can contribute to the UPES-CSA community.
-    <br><br>
-    Thank you for choosing UPES-CSA as your platform for growth and innovation.
-    <br><br>
-    In case of any queries, feel free to reach the undersigned:
-    <br><br>
-    Pranav Aeron<br>
-    (President, UPES-CSA)<br>
-    +91 7289010301<br><br>
-    Ritik Raheja<br>
-    (Vice President, UPES-CSA)<br>
-    +91 6239321512<br><br>
-
-    <strong>Thanks, and Regards</strong> <br>
-    <strong>Team UPES CSA</strong>
-    `,
+    html:'Greetings,<br><br> We are delighted to let you know that your registration for UPES Cloud Security Alliance (UPES-CSA) has been successfully completed! <br><br> Your journey with UPES-CSA begins now, and we are excited to have you join our thriving community. You will soon receive further communication regarding the interview process, where we will discuss your interests and how you can actively contribute to the UPES-CSA team. <br><br> Thank you for choosing UPES-CSA as your platform for learning, collaboration and innovation. <br><br> For any questions or assistance, please feel free to reach out to the contacts below: <br><br> Akshaj Jain<br> (Sponsorship Head, UPES CSA)<br> +91 9636868800<br><br> Suyash Patnaik<br> (Photography Head, UPES CSA)<br> +91 8652524741<br><br> <strong>Warm regards,</strong><br> <strong>Team UPES-CSA</strong>',
   },
   AIPS: {
     subject: "Successful Registration Confirmation - AIPS Workshop!",
@@ -844,27 +825,25 @@ const templates = {
   <body>
     <div class="container">
       <h2>Registration Confirmed!</h2>
-      <p>Greetings username,</p>
+      <p>Greetings,</p>
       <p>
-        We are delighted to inform you that your registration for <strong>UPES Cloud Security Alliance (UPES-CSA)</strong> has been successfully processed!
+        We are delighted to let you know that your registration for <strong>UPES Cloud Security Alliance (UPES-CSA)</strong> has been successfully completed!
       </p>
       <p>
-        Your journey with UPES-CSA begins now, and we are thrilled to have you as a part of our community.
-        In the next phase, you will soon be informed about the interview process, where we will further discuss your interests and how you can contribute to the UPES-CSA community.
-      </p>
+        Your journey with UPES-CSA begins now, and we are excited to have you join our thriving community. You will soon receive further communication regarding the interview process, where we will discuss your interests and how you can actively contribute to the UPES-CSA team.
       <p>
-        Thank you for choosing UPES-CSA as your platform for growth and innovation.
+        Thank you for choosing UPES-CSA as your platform for learning, collaboration and innovation.
       </p>
       <p>
         To stay connected and receive important updates, please join our WhatsApp group using the link below:
       </p>
       <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/LGu6r9GyK5A68gDVSVc4wr">WhatsApp</a></p>
       <p>
-        In case of any queries, feel free to reach the undersigned:
+        For any questions or assistance, please feel free to reach out to the contacts below:
       </p>
-      <h4>Nityavardhan Singh (Events Head, UPES-CSA):<br/> +91 81689 47503</h4>
-      <h4>Chhavi Gera (Events Head, UPES-CSA):<br/> +91 92054 47418</h4>
-      <p><strong>Thanks, and Regards<br/>Team UPES-CSA</strong></p>
+      <h4>Akshaj Jain (Sponsorship Head, UPES CSA):<br/> +91 96368 68800</h4>
+      <h4>Suyash Patnaik (Photography Head, UPES CSA):<br/> +91 86525 24741</h4>
+      <p><strong>Warm regards,<br/>Team UPES-CSA</strong></p>
       <hr/>
     </div>
   </body>
