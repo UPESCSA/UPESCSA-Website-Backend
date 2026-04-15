@@ -68,7 +68,7 @@ const templates = {
   REGISTRATIONS: {
     subject:
       "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
-    html:'Greetings,<br><br> We are delighted to let you know that your registration for UPES Cloud Security Alliance (UPES-CSA) has been successfully completed! <br><br> Your journey with UPES-CSA begins now, and we are excited to have you join our thriving community. You will soon receive further communication regarding the interview process, where we will discuss your interests and how you can actively contribute to the UPES-CSA team. <br><br> Thank you for choosing UPES-CSA as your platform for learning, collaboration and innovation. <br><br> For any questions or assistance, please feel free to reach out to the contacts below: <br><br> Akshaj Jain<br> (Sponsorship Head, UPES CSA)<br> +91 9636868800<br><br> Suyash Patnaik<br> (Photography Head, UPES CSA)<br> +91 8652524741<br><br> <strong>Warm regards,</strong><br> <strong>Team UPES-CSA</strong>',
+    html: "Greetings,<br><br> We are delighted to let you know that your registration for UPES Cloud Security Alliance (UPES-CSA) has been successfully completed! <br><br> Your journey with UPES-CSA begins now, and we are excited to have you join our thriving community. You will soon receive further communication regarding the interview process, where we will discuss your interests and how you can actively contribute to the UPES-CSA team. <br><br> Thank you for choosing UPES-CSA as your platform for learning, collaboration and innovation. <br><br> For any questions or assistance, please feel free to reach out to the contacts below: <br><br> Akshaj Jain<br> (Sponsorship Head, UPES CSA)<br> +91 9636868800<br><br> Suyash Patnaik<br> (Photography Head, UPES CSA)<br> +91 8652524741<br><br> <strong>Warm regards,</strong><br> <strong>Team UPES-CSA</strong>",
   },
   AIPS: {
     subject: "Successful Registration Confirmation - AIPS Workshop!",
@@ -237,7 +237,7 @@ const templates = {
         ODYSSEY - TREASURE HUNT!
         <br />
         <h3>Event Venue: UPES Bidholi Campus</h3>
-       
+
         Kindly join the <a href="https://chat.whatsapp.com/IBxfeKPXAqrHa14M1CwnKv">WhatsApp</a> group for
         further updates. In case of any queries, feel free to reach the
         undersigned: <br /><br />
@@ -728,7 +728,7 @@ const templates = {
 </head>
 <body>
   <div class="container">
-  
+
     <h1>MEMOIR 3.0</h1>
     <h2>Registration Successful!!</h2>
     <p>Dear username,</p>
@@ -770,8 +770,9 @@ const templates = {
     `,
   },
 
-  "RegistrationDrive2025": {
-    subject: "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
+  RegistrationDrive2025: {
+    subject:
+      "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
     html: `
   <html>
   <head>
@@ -848,7 +849,7 @@ const templates = {
     </div>
   </body>
   </html>
-  `
+  `,
   },
 
   AzureCloudScape: {
@@ -990,7 +991,7 @@ const templates = {
 <div class="container">
     <h1>Entropedia 2.0</h1>
     <h2>Registration Successful!</h2>
-    
+
     <p>Dear <strong>username</strong>,</p>
 
     <p>Congratulations! 🎉 Your registration for <strong>Entropedia 2.0</strong> is confirmed. We’re thrilled to have you on board for this exciting entrepreneurial journey. Get ready to refine your ideas, receive expert mentorship, and showcase your potential in front of industry leaders!</p>
@@ -1029,7 +1030,8 @@ const templates = {
     `,
   },
   WEBGENESIS: {
-    subject: "Successful Registration Confirmation - WebGenesis: Code to Cloud!",
+    subject:
+      "Successful Registration Confirmation - WebGenesis: Code to Cloud!",
     html: `
   <html>
 <head>
@@ -1279,8 +1281,103 @@ const templates = {
   `,
   },
 
+  FUNTOPIA6: {
+    subject: "Successful Registration Confirmation for Funtopia 6.0!",
+    html: `
+    <html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1e1e1e;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #000;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+      h1, h2, h3 {
+        color: #00bfff;
+      }
+      p, li {
+        color: #ffffff;
+        line-height: 1.6;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .contact-info {
+        margin: 20px 0;
+        padding: 15px;
+        background: #111;
+        border-left: 4px solid #00bfff;
+        border-radius: 4px;
+      }
+      .contact-info p {
+        margin: 5px 0;
+      }
+      hr {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border: 1px solid #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎉 Funtopia 6.0</h1>
+      <h2>Registration Successful!</h2>
 
+      <p>Greetings,</p>
 
+      <p>We are pleased to inform you that your registration for <strong>Funtopia 6.0</strong>, organized by the <strong>UPES Cloud Security Alliance Student Chapter (UPES CSA)</strong>, has been successfully received.</p>
+
+      <p>Thank you for showing your interest in being a part of this exciting three-day event filled with thrilling competitions, strategic gaming battles, and engaging campus activities. Your participation contributes to making Funtopia 6.0 an energetic and memorable experience for everyone involved.</p>
+
+      <p><strong>📅 Event Dates: 17 - 19 April 2026</strong></p>
+
+      <p><strong>🔎 Event Line-Up:</strong></p>
+      <ul>
+        <li><strong>🗺 Treasure Hunt: 17 April</strong> - Decode clues, solve puzzles, and race across campus to uncover the hidden treasure.</li>
+        <li><strong>🎮 Valorant Tournament: 18 April</strong> - Assemble your squad and compete in intense 5v5 battles where strategy and coordination decide the champions.</li>
+        <li><strong>🔥 BGMI Tournament: 19 April</strong> - Enter the battleground with your squad and fight for survival to claim the ultimate victory.</li>
+      </ul>
+
+      <p>Further details regarding event timings, venue, rules, and other important instructions will be shared with all registered participants shortly. We encourage you to stay updated and prepare for the upcoming challenges.</p>
+
+      <p><strong>In case of any queries, feel free to reach the undersigned:</strong></p>
+
+      <div class="contact-info">
+        <p><strong>Nityavardhan Singh</strong><br/>
+        Events Head, UPES-CSA<br/>
+        +91 81689 47503</p>
+
+        <p><strong>Chhavi Gera</strong><br/>
+        Events Head, UPES-CSA<br/>
+        +91 92054 47418</p>
+      </div>
+
+      <p>We look forward to your enthusiastic participation in Funtopia 6.0.</p>
+
+      <p><strong>Thanks and regards,</strong><br/>
+      <strong>Team UPES CSA</strong></p>
+
+      <hr/>
+    </div>
+  </body>
+</html>
+    `,
+  },
 };
 
 export { templates as MAILTEMPLATES };
