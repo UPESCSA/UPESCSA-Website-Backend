@@ -58,7 +58,6 @@ app.use("/api/previousevent", PREVIOUSEVENTROUTER);
 app.use("/api/hackathon/ps", HACKATHONPSROUTER);
 app.use("/api/sendmail", MAILROUTER);
 
-
 // DATABASE DISCONNECTION
 process.on("SIGINT", () => {
   database
@@ -76,3 +75,4 @@ process.on("SIGINT", () => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} ✅`);
 });
+// GG
