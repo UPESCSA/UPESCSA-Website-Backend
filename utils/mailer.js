@@ -25,13 +25,15 @@ const transporter = nodemailer.createTransport({
     user: senderMailId,
     pass: password,
   },
-  secure: true,
+  // secure: true,
+  tls: {
+    rejectUnauthorized: false, // Add this
+    ciphers: "SSLv3",
+  },
 });
 
 function sendMail(username, email, template) {
-
   try {
-
     const mailTemplate = MAILTEMPLATES[template];
     const mailSubject = mailTemplate.subject;
     let mailHtml = mailTemplate.html;

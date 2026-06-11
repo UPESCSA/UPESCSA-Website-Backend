@@ -1281,6 +1281,89 @@ const templates = {
   `,
   },
 
+  RegistrationDrive2026: {
+    subject:
+      "Successful Registration Confirmation - Welcome to UPES Cloud Security Alliance!",
+    html: `
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3, h4, h5 {
+      color: #1895ee;
+    }
+    div {
+      line-height: 1.3;
+      color: #ffffff;
+    }
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    svg {
+      margin: 0 5px;
+      height: 30px;
+    }
+    hr {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    a {
+      font-weight: bold;
+      color: #1895ee;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Confirmed!</h2>
+    <p>Greetings <strong>username</strong>,</p>
+    <p>
+      We are delighted to let you know that your registration for <strong>UPES Cloud Security Alliance (UPES-CSA)</strong> has been successfully completed!
+    </p>
+    <p>
+      Your journey with UPES-CSA begins now, and we are excited to have you join our thriving community. You will soon receive further communication regarding the interview process, where we will discuss your interests and how you can actively contribute to the UPES-CSA team.
+    </p>
+    <p>
+      Thank you for choosing UPES-CSA as your platform for learning, collaboration and innovation.
+    </p>
+    <p>
+      To stay connected and receive important updates, please join our WhatsApp group using the link below:
+    </p>
+    <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/K68n2hC9M2v6y9OH4i6hhS">WhatsApp</a></p>
+    <p>
+      For any questions or assistance, please feel free to reach out to the contacts below:
+    </p>
+    <h4>Vansh Garg (Events Head, UPES CSA):<br/> +91 95282 54655</h4>
+    <h4>Siya Singh (Events Head, UPES CSA):<br/> +91 73075 18413</h4>
+    <p><strong>Warm regards,<br/>Team UPES-CSA</strong></p>
+    <hr/>
+  </div>
+</body>
+</html>
+  `,
+  },
+
   FUNTOPIA6: {
     subject: "Successful Registration Confirmation for Funtopia 6.0!",
     html: `
