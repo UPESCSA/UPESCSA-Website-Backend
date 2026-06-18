@@ -1350,7 +1350,7 @@ const templates = {
     <p>
       To stay connected and receive important updates, please join our WhatsApp group using the link below:
     </p>
-    <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/K68n2hC9M2v6y9OH4i6hhS">WhatsApp</a></p>
+    <p>Join the WhatsApp Group: <a href="https://chat.whatsapp.com/EEBG4EGuiieLNrmmE0TPSl">WhatsApp</a></p>
     <p>
       For any questions or assistance, please feel free to reach out to the contacts below:
     </p>
